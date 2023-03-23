@@ -1,0 +1,83 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+body
+{
+    background-color: rgb(37, 37, 37);
+}
+.father-car
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.for_slick_slider
+{   
+    width: 80%;
+
+}
+
+
+
+.color-overly
+{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(0deg, rgba(0,0,0,0.6573004201680672)100%, rgba(129,129,129,0) 48%);
+}
+
+.masthead
+{
+    background: url('../img/lospeaky.jpg') no-repeat;
+    background-size: cover;
+    position: relative;
+    min-height: 90vh;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+
+
+}
+
+.masthead .container
+{
+    overflow: hidden;
+}
+
+.masthead h1
+{
+    position: absolute;
+   top: 2.5rem;
+    max-width: 550px;
+    font-weight: bold;
+    color: white;
+}
+.masthead p
+{
+    position: absolute;
+   bottom: 6rem;
+    max-width: 750px;
+
+    color: white;
+}
+.masthead a
+{
+    position: absolute;
+   bottom: 4rem;
+    max-width: 750px;
+    text-decoration: none;
+    background-color: grey;
+    padding: .4em;
+    color: white;
+    
+}
+.items a
+{
+    text-decoration: none;
+    color: white;
+}
